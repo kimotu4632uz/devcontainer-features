@@ -11,7 +11,7 @@
             "type": "string",
             "proposals": [
                 "latest",
-                "none",
+                "none"
             ],
             "default": "latest",
             "description": "Version of neovim to install. By default, install latest stable release."
