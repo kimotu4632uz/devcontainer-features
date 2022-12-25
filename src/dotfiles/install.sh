@@ -1,15 +1,15 @@
 #!/bin/sh
 set -e
 
-if [ -z "${REPOSITORY}"]; then
-  echo "no repo specified."
+if [ -z "${REPOSITORY}" ]; then
+  echo "No repo specified."
 else
-  echo "clone dotfile repo..."
+  echo "Clone dotfile repo..."
 
   git clone "${REPOSITORY}" "${TARGETPATH}"
 
   if [ ! -z "${SETUPCMD}" ]; then
-    echo "run setup command..."
+    echo "Run setup command..."
 
     ${SETUPCMD}
   fi
