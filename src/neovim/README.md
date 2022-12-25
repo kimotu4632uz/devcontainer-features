@@ -1,13 +1,13 @@
 
-# install latest neovim (neovim-latest)
+# neovim (neovim)
 
-Install latest version of neovim
+Install neovim.
 
 ## Example Usage
 
 ```json
 "features": {
-    "ghcr.io/kimotu4632uz/devcontainer-features/neovim-latest:0": {}
+    "ghcr.io/kimotu4632uz/devcontainer-features/neovim:0": {}
 }
 ```
 
@@ -15,10 +15,10 @@ Install latest version of neovim
 
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
-| version | Version of neovim to install. By default, install latest stable release. | string | latest |
+| version | Version of neovim to install. 'latest' to install latest release, 'package' to install latest from package manager. Other version without prefix 'v' is also acceptable. | string | latest |
 
 
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/kimotu4632uz/devcontainer-features/blob/main/src/neovim-latest/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/kimotu4632uz/devcontainer-features/blob/main/src/neovim/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
