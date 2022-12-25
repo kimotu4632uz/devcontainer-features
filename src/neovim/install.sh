@@ -5,10 +5,10 @@ echo "Install neovim version ${VERSION}..."
 
 export DEBIAN_FRONTEND=noninteractive
 
-if [ "$VERSION" == "package" ]; then
+if [ "${VERSION}" = "package" ]; then
   apt-get install -y neovim
 else
-  if [ "$VERSION" == "latest" ]; then
+  if [ "${VERSION}" = "latest" ]; then
     curl -LO https://github.com/neovim/neovim/releases/download/stable/nvim-linux64.deb
   else
     curl -LO https://github.com/neovim/neovim/releases/download/v"${VERSION}"/nvim-linux64.deb
