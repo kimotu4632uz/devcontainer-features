@@ -1,0 +1,9 @@
+{
+    "name": "install latest neovim",
+    "id": "neovim-latest",
+    "version": "0.1.0",
+    "description": "Install latest version of neovim",
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils"
+    ]
+}
