@@ -11,7 +11,11 @@ Install latest version of neovim
 }
 ```
 
+## Options
 
+| Options Id | Description | Type | Default Value |
+|-----|-----|-----|-----|
+| version | Version of neovim to install. By default, install latest stable release. | string | latest |
 
 
 
