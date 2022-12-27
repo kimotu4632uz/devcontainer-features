@@ -1,7 +1,7 @@
 {
     "name": "dotfiles",
     "id": "dotfiles",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "description": "Clone dotfiles using git and run setup scripts.",
     "installsAfter": [
         "ghcr.io/devcontainers/features/git"
