@@ -16,6 +16,7 @@ Install neovim.
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
 | version | Version of neovim to install. 'latest' to install latest release, 'package' to install latest from package manager. Other version without prefix 'v' is also acceptable. | string | latest |
+| setupCmd | Optional setup command after install. | string | undefined |
 
 
 
