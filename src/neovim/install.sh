@@ -16,5 +16,10 @@ else
 
   apt-get install -y ./nvim-linux64.deb
   rm ./nvim-linux64.deb
+
+  if [ ! -z "${SETUPCMD}" ]; then
+    echo "Running setup command..."
+    ${SETUPCMD}
+  fi
 fi
 

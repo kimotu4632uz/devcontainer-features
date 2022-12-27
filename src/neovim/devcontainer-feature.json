@@ -1,7 +1,7 @@
 {
     "name": "neovim",
     "id": "neovim",
-    "version": "0.1.3",
+    "version": "0.1.4",
     "description": "Install neovim.",
     "installsAfter": [
         "ghcr.io/devcontainers/features/common-utils"
@@ -15,6 +15,10 @@
             ],
             "default": "latest",
             "description": "Version of neovim to install. 'latest' to install latest release, 'package' to install latest from package manager. Other version without prefix 'v' is also acceptable."
+        },
+        "setupCmd": {
+            "type": "string",
+            "description": "Optional setup command after install."
         }
     }
 }
