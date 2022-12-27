@@ -19,7 +19,7 @@ else
 
   if [ ! -z "${SETUPCMD}" ]; then
     echo "Running setup command..."
-    ${SETUPCMD}
+    sh -c "${SETUPCMD}"
   fi
 fi
 
